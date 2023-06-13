@@ -53,7 +53,7 @@ window.onload = function (){
             acrescentaSegundos.innerHTML = segundos
         }
 
-        if(segundos > 60){
+        if(segundos > 59){
             minutos++;
             acrescentaMinutos.innerHTML = "0" + minutos;
             segundos = 0;
